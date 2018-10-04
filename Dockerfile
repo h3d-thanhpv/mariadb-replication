@@ -1,4 +1,4 @@
-FROM mariadb:10.3.6
+FROM mariadb:10.2.8
 
 ENV REPLICATION_USER replication
 ENV REPLICATION_PASSWORD replication_pass
