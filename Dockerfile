@@ -7,3 +7,4 @@ COPY replication-entrypoint.sh /usr/local/bin/
 COPY init-slave.sh /
 
 ENTRYPOINT ["replication-entrypoint.sh"]
+CMD ["mysqld"]
